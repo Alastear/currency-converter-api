@@ -29,6 +29,9 @@ RATES_PROVIDER=frankfurter
 RATES_REFRESH_INTERVAL_HOURS=6
 ````
 
+Start Install Docker and run 
+
+Command for Start
 ```` bash
 docker compose -f docker-compose.neon.yml --env-file .env build --no-cache --progress=plain
 docker compose -f docker-compose.neon.yml --env-file .env up
